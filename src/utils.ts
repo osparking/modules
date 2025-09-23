@@ -4,5 +4,5 @@ function addNumber(x: number, y: number) : number {
 
 function pickRandElt<T>(elements: T[]): T {
   const index = Math.floor(Math.random()* elements.length);
-  return elements[index];
+  return elements[index]!;
 }
